@@ -21,7 +21,7 @@ L'option Continuer peut être exercée explicitement lorsqu'une réclamation d'i
 
 **Attribution de possession - barre de contact**: Pendant ou immédiatement après l'infraction, si la balle entre en contact avec une figurine ou une barre de l'équipe non fautive, la balle est alors attribuée à l'équipe non fautive sur la barre où le contact s'est produit.
 
-**Attribution de possession - première barre atteignable**: Pendant ou immédiatement après l'infraction, la balle est attribuée au premier barre de l'équipe non fautive depuis laquelle elle devient atteignable.
+**Attribution de possession - première barre accessible**: Pendant ou immédiatement après l'infraction, la balle est attribuée au premier barre de l'équipe non fautive depuis laquelle elle devient accessible.
 
 **Retour**: La balle est rendue à la barre où l'infraction s'est produite.
 
@@ -47,8 +47,8 @@ Une sanction est une pénalité infligée à l'équipe fautive à la suite d'une
 
 **Penalty**: La balle est attribuée à la barre des 3 de l'équipe non fautive pour une unique tentative de marquer un but contre un défenseur de l'équipe fautive ; voir le chapitre [Penalty](./18-penalty-shot.md) pour la procédure complète.
 
-**Forfait de manche**: L'équipe fautive perd la manche par forfait.
+**Manche perdue**: L'équipe fautive perd la manche par forfait.
 
-**Forfait de match**: L'équipe fautive perd le match par forfait.
+**Match perdu**: L'équipe fautive perd le match par forfait.
 
 **Infraction de conduite**: Un joueur peut informer le joueur fautif que son comportement est interdit et lui demander d'arrêter. Si nécessaire, le joueur peut demander à un arbitre de régler la situation ; voir [Cartons de pénalité](./16-referee-and-escalation.md#167-cartons-de-pénalité) pour la manière dont un arbitre applique cette règle.

@@ -13,7 +13,7 @@ Cette traduction française a été produite par IA et n'a pas encore été relu
 
 En double standard, les joueurs d'une même équipe sont autorisés à échanger leurs positions de jeu entre-points, entre-manches, et avant et après un Penalty. L'équipe ayant l'engagement doit prendre position avant l'autre équipe.
 
-Les deux équipes sont libres de changer de position jusqu'au début du protocole de préparation. Cependant, une fois l'invite de préparation émise, l'équipe offensive n'est plus autorisée à changer de position, et lorsque la réponse de préparation est donnée, l'équipe défensive n'est plus autorisée à changer de position.
+Les deux équipes sont libres de changer de position jusqu'au début du protocole du Prêt. Cependant, une fois l'invite de préparation émise, l'équipe offensive n'est plus autorisée à changer de position, et lorsque la réponse de préparation est donnée, l'équipe défensive n'est plus autorisée à changer de position.
 
 Changer de position pendant le jeu actif constitue une infraction. À d'autres moments, le changement de position est interdit mais non sanctionné.
 

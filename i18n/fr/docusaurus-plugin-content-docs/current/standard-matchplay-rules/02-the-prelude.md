@@ -19,7 +19,7 @@ Si un arbitre est présent pendant le prélude, il peut prononcer des Infraction
 
 Chaque équipe dispose de 60 secondes sur chaque côté de la table afin d'évaluer l'équipement et les conditions de jeu, et de demander si nécessaire une maintenance de la table. Une fois le jeu actif commencé, la maintenance de la table ne peut être demandée qu'en cas d'altération soudaine de la table.
 
-Pendant le prélude, tout objet reposant sur la surface du caisson doit être retiré.
+Pendant le prélude, tout objet reposant sur la surface du cadre de la table doit être retiré.
 
 ## 2.2 Réserve de balles
 

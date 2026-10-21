@@ -31,7 +31,7 @@ Ces règles sont rédigées principalement pour des matchs joués sans arbitre. 
 
 En simple standard et en double standard, un match se compose d'un processus préliminaire appelé le *prélude*, suivi d'une ou plusieurs manches séparées par une *pause entre-manches*.
 
-Chaque manche se compose de périodes de *jeu actif* ponctuées par une *pause entre-points*. Le jeu actif se compose de *possessions actives* lorsque la balle est atteignable par une barre, et de périodes pendant lesquelles la balle se déplace entre les barres.
+Chaque manche se compose de périodes de *jeu actif* ponctuées par une *pause entre-points*. Le jeu actif se compose de *possessions actives* lorsque la balle est accessible par une barre, et de périodes pendant lesquelles la balle se déplace entre les barres.
 
 Le jeu actif peut être brièvement suspendu par des ruptures de routine appelées pauses, ainsi que par des *interruptions*, qui sont des ruptures exceptionnelles du jeu.
 

@@ -35,7 +35,7 @@ Pendant le jeu actif, un joueur ne doit pas interférer avec la barre de l'équi
 
 **Compensation :**
 - Si la balle est sous possession contrôlée : Reprise
-- Si la balle était en transition : Attribution de possession - première barre atteignable
+- Si la balle était en transition : Attribution de possession - première barre accessible
 
 **Sanction :** Infraction de conduite si le contact est intentionnel
 :::

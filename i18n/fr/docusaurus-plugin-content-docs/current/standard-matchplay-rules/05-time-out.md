@@ -17,7 +17,7 @@ Chaque équipe peut demander un temps mort entre les points, entre les manches, 
 
 Chaque équipe dispose de deux temps morts par manche. Un temps mort demandé entre-manches compte dans le total de la manche suivante.
 
-Un joueur demande un temps mort en formant un T avec ses deux mains au-dessus du terrain de jeu, tout en annonçant simultanément « Temps mort ! ».
+Un joueur demande un temps mort en formant un T avec ses deux mains au-dessus de la surface de jeu, tout en annonçant simultanément « Temps mort ! ».
 
 Si le temps mort est demandé pendant une pause, la pause est alors prolongée et le temps supplémentaire s'ajoute à la suite du temps restant de la pause.
 

@@ -38,5 +38,5 @@ Une fois le Penalty achevé, les joueurs reviennent à la table et le jeu se pou
 :::danger[Règle : Limite de Penaltys]
 Une équipe ne doit pas se voir infliger trois Penaltys au cours d'une même manche.
 
-**Sanction :** Forfait de manche
+**Sanction :** Manche perdue
 :::

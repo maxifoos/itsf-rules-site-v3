@@ -15,13 +15,13 @@ Cette traduction française a été produite par IA et n'a pas encore été relu
 
 Les activités suivantes sont considérées comme de l'entretien de routine :
 
-- Retirer les débris du terrain de jeu
+- Retirer les débris de la surface de jeu
 - Lubrifier les barres
 - Resserrer une poignée desserrée ou réparer un grip desserré
 
 L'entretien de routine est toujours autorisé en dehors du jeu actif sans nécessiter de consentement, à condition qu'il ne cause pas de retard.
 
-Les joueurs sont autorisés à essuyer brièvement ou à retirer des débris du terrain de jeu, à condition qu'aucune substance ne soit utilisée dans ce processus.
+Les joueurs sont autorisés à essuyer brièvement ou à retirer des débris de la surface de jeu, à condition qu'aucune substance ne soit utilisée dans ce processus.
 
 Les joueurs peuvent lubrifier les barres de leur propre équipe, mais doivent avoir connaissance de la règle contre la Contamination. Les joueurs doivent également éviter d'introduire du lubrifiant là où il pourrait présenter un risque pour les joueurs, par exemple sur les poignées ou sur le sol du lieu.
 
@@ -44,7 +44,7 @@ Un joueur ne doit pas modifier les caractéristiques de jeu de la table ou de la
 :::
 
 :::danger[Règle : Contamination]
-Un joueur ne doit utiliser aucune substance pour nettoyer la balle, le terrain de jeu, ou tout autre composant de jeu, ni les laisser se contaminer par une quelconque substance.
+Un joueur ne doit utiliser aucune substance pour nettoyer la balle, la surface de jeu, ou tout autre composant de jeu, ni les laisser se contaminer par une quelconque substance.
 
 **Sanction :**
 - Première fois dans le match : Avertissement

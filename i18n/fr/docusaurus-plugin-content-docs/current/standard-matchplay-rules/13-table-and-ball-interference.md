@@ -16,7 +16,7 @@ Si nécessaire, la table peut être repositionnée avec consentement pendant une
 :::danger[Règle : Déplacement de la table]
 Pendant le jeu actif, un joueur ne doit pas faire en sorte que les pieds de la table se soulèvent, glissent, ou se déplacent autrement de leur position.
 
-**Compensation :** Attribution de possession - première barre atteignable
+**Compensation :** Attribution de possession - première barre accessible
 
 **Sanction :** Escalade selon le [processus d'escalade](./16-referee-and-escalation.md#161-processus-descalade)
 :::
@@ -29,12 +29,12 @@ Il est illégal d'influencer le mouvement de la balle pendant le jeu actif par t
 - Touchant la balle en atteignant l'aire de jeu
 - Introduisant un objet étranger dans l'aire de jeu
 
-Toutefois, une balle qui est arrêtée et en contact avec la partie verticale de la bande latérale est une *balle coincée*. Il est légal de buter la barre de possession contre la bande latérale opposée afin de libérer une balle coincée.
+Toutefois, une balle qui est arrêtée et en contact avec la partie verticale du montant est une *balle coincée*. Il est légal de buter la barre de possession contre le montant opposé afin de libérer une balle coincée.
 
 :::danger[Règle : Influence illégale]
 Il est illégal d'influencer le mouvement de la balle pendant le jeu actif par tout moyen autre qu'un contact direct avec une figurine. Si l'action empêche la balle d'entrer dans le but de l'équipe fautive, un point est accordé à l'équipe adverse.
 
-Exception : il est légal de buter la barre de possession contre la bande latérale opposée afin de libérer une balle coincée.
+Exception : il est légal de buter la barre de possession contre le montant opposé afin de libérer une balle coincée.
 
 **Compensation :** Attribution de possession - barre suivante, éventuellement Attribution de point
 

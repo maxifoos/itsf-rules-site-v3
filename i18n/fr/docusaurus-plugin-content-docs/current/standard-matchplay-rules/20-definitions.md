@@ -11,39 +11,39 @@ Les termes définis sont utilisés de manière cohérente dans l'ensemble du rè
 
 ## 20.1 Composants de la table
 
-**Zone de la barre des 2**: La zone où la balle est atteignable par la barre des 2.
+**Zone de la barre des 2**: La zone où la balle est accessible par la barre des 2.
 
-**Zone de la barre des 3**: La zone où la balle est atteignable par la barre des 3.
+**Zone de la barre des 3**: La zone où la balle est accessible par la barre des 3.
 
-**Zone de la barre des 5**: La zone où la balle est atteignable par la barre des 5.
+**Zone de la barre des 5**: La zone où la balle est accessible par la barre des 5.
 
 **Réserve de balles**: La balle ou le jeu de balles spécifique qui sera utilisé pendant le match.
 
-**Caisson**: Toute partie du cadre de la table qui est extérieure à l'aire de jeu.
+**Cadre de la table**: Toute partie de la table qui est extérieure à l'aire de jeu.
 
 **Figurine**: Une figurine de jeu sur l'une des barres, utilisée pour contrôler la balle pendant le jeu.
 
-**Ligne de but**: Le bord du terrain de jeu au niveau de la bouche du but.
+**Ligne de but**: Le bord de la surface de jeu au niveau de la bouche du but.
 
 **Zone gardien**: La zone combinant la zone du gardien de but, la zone de la barre des 2, et l'espace entre elles.
 
-**Barre gardien**: Soit la barre du gardien de but, soit la barre des 2 adjacente.
+**Barre des arrières**: Soit la barre du gardien de but, soit la barre des 2 adjacente.
 
 **Gardien de but**: La figurine sur la barre du gardien de but qui couvre la bouche du but.
 
-**Zone du gardien de but**: La zone où la balle est atteignable par la barre du gardien de but.
+**Zone du gardien de but**: La zone où la balle est accessible par la barre du gardien de but.
 
 **Barre du gardien de but**: La barre la plus proche du but.
 
 **Balle neuve**: Une balle inutilisée du type homologué, obtenue auprès du site du tournoi.
 
-**Terrain de jeu**: La surface interne de la table sur laquelle la balle est jouée.
+**Surface de jeu**: La surface interne de la table sur laquelle la balle est jouée.
 
-**Aire de jeu**: Toute partie du volume interne de la table depuis le terrain de jeu jusqu'à la hauteur du bord du caisson, à l'exclusion des compteurs de score.
+**Aire de jeu**: Toute partie du volume interne de la table depuis la surface de jeu jusqu'à la hauteur du bord du cadre de la table, à l'exclusion des compteurs de score.
 
 **Zone de barre**: Une zone de barre des 3, une zone de barre des 5, ou une zone gardien.
 
-**Bande latérale**: L'une des deux surfaces verticales internes qui délimitent les côtés de l'aire de jeu, y compris tout liseré qui longe chaque côté de la bande.
+**Montant**: L'une des deux surfaces verticales internes qui délimitent les côtés de l'aire de jeu, y compris tout liseré qui longe chaque côté du montant.
 
 **Zone de frappe**: La zone qui comprend tous les angles de rotation d'une barre entre une position de butée arrière et une position de butée avant.
 
@@ -53,7 +53,7 @@ Les termes définis sont utilisés de manière cohérente dans l'ensemble du rè
 
 **Limité dans le temps**: Une période d'un match qui ne doit pas dépasser une durée maximale spécifiée, c'est-à-dire la possession active, l'entre-points, l'entre-manches.
 
-**Jeu actif**: Une période de jeu en direct pendant laquelle la balle est atteignable ou en mouvement, soit entre les barres, soit au-dessus du terrain de jeu.
+**Jeu actif**: Une période de jeu en direct pendant laquelle la balle est accessible ou en mouvement, soit entre les barres, soit au-dessus de la surface de jeu.
 
 **Pause**: Une interruption limitée dans le temps, soit entre les points, soit entre les manches.
 
@@ -97,9 +97,9 @@ Les termes définis sont utilisés de manière cohérente dans l'ensemble du rè
 
 **Joueur adverse**: Le joueur qui contrôle la barre directement opposée à la barre de possession actuelle.
 
-**Atteignable**: Une balle est atteignable depuis une barre si le pied d'une figurine de cette barre peut la toucher sans fléchir la barre.
+**Accessible**: Une balle est accessible depuis une barre si le pied d'une figurine de cette barre peut la toucher sans tordre la barre.
 
-**Inatteignable**: Une balle qui n'est atteignable par aucune barre.
+**Inaccessible**: Une balle qui n'est accessible par aucune barre.
 
 ## 20.5 États de la balle
 
@@ -107,11 +107,11 @@ Les termes définis sont utilisés de manière cohérente dans l'ensemble du rè
 
 **Balle en mouvement**: Une balle en état de mouvement, que ce soit par déplacement linéaire ou par rotation.
 
-**Balle morte**: Une balle arrêtée dans l'aire de jeu qui n'est atteignable par aucune barre.
+**Balle morte**: Une balle arrêtée dans l'aire de jeu qui n'est accessible par aucune barre.
 
-**Balle pincée**: Une balle arrêtée ou en mouvement qui est pressée contre le terrain de jeu par une figurine.
+**Balle sous le pied**: Une balle arrêtée ou en mouvement qui est pressée contre la surface de jeu par une figurine.
 
-**Balle hors table**: Une balle qui quitte l'aire de jeu et heurte un objet étranger soit sur le caisson, soit à l'extérieur de la table, ou qui s'immobilise sur le dessus du caisson.
+**Balle hors table**: Une balle qui quitte l'aire de jeu et heurte un objet étranger soit sur le cadre de la table, soit à l'extérieur de la table, ou qui s'immobilise sur le dessus du cadre de la table.
 
 **Balle retenue**: Une balle qui est arrêtée sous possession contrôlée dès que possible afin de traiter une interruption.
 
@@ -119,7 +119,7 @@ Les termes définis sont utilisés de manière cohérente dans l'ensemble du rè
 
 **Balle précaire**: Une balle arrêtée dont une partie se trouve derrière la barre du gardien de but et directement devant la bouche du but.
 
-**Balle coincée**: Une balle atteignable qui est arrêtée et en contact avec la partie verticale de la bande latérale.
+**Balle coincée**: Une balle accessible qui est arrêtée et en contact avec la partie verticale du montant.
 
 ## 20.6 Mise en jeu de la balle
 
@@ -127,11 +127,11 @@ Les termes définis sont utilisés de manière cohérente dans l'ensemble du rè
 
 **Engagement**: Une mise en jeu à la figurine centrale de la barre des 5 par l'équipe qui a concédé le but précédent, ou s'il n'y a pas de score, par l'équipe qui a obtenu l'engagement lors du tirage au sort initial.
 
-**Protocole de préparation**: Partie du processus de mise en jeu de la balle ; l'invite de préparation et la réponse de préparation.
+**Protocole du Prêt**: Partie du processus de mise en jeu de la balle ; l'invite de préparation et la réponse de préparation.
 
-**Invite de préparation**: La première partie du protocole de préparation où le joueur qui met la balle en jeu demande au joueur adverse s'il est prêt pour le début du jeu actif.
+**Invite de préparation**: La première partie du protocole du Prêt où le joueur qui met la balle en jeu demande au joueur adverse s'il est prêt pour le début du jeu actif.
 
-**Réponse de préparation**: La seconde partie du protocole de préparation où le joueur adverse indique qu'il est prêt pour le début du jeu actif.
+**Réponse de préparation**: La seconde partie du protocole du Prêt où le joueur adverse indique qu'il est prêt pour le début du jeu actif.
 
 **Figurine de mise en jeu**: Pendant une mise en jeu, la figurine sur laquelle le premier contact du transfert d'ouverture est effectué.
 
@@ -141,16 +141,16 @@ Les termes définis sont utilisés de manière cohérente dans l'ensemble du rè
 
 **Contact**: Lorsque la balle touche une figurine sur une barre, ou toute partie d'une barre qui est interne à l'aire de jeu.
 
-**Déplacement**: Un contact qui fait bouger une balle arrêtée, ou qui fait changer de vitesse ou de direction une balle en mouvement.
+**Action de jeu**: Un contact qui fait bouger une balle arrêtée, ou qui fait changer de vitesse ou de direction une balle en mouvement.
 
-**Transfert**: Un déplacement suivi d'un contact sur une autre figurine dans la même zone de barre.
+**Transfert**: Une action de jeu suivie d'un contact sur une autre figurine dans la même zone de barre.
 
-**Transition**: Un déplacement qui rend la balle inatteignable par la barre de possession active et atteignable par une autre barre.
+**Transition**: Une action de jeu qui rend la balle inaccessible par la barre de possession active et accessible par une autre barre.
 
 **Transition contrôlée**: Une transition effectuée par une rotation contrôlée de la barre, ou toute transition qui fait suite à une possession contrôlée.
 
 **Passe**: Une transition contrôlée d'une barre à une autre barre de la même équipe, où les barres de passe et de réception sont séparées par au moins une barre de l'équipe adverse ; la passe est réussie si la barre de réception obtient une possession contrôlée ou effectue une transition contrôlée.
 
-**Passe directe**: Une passe de la barre des 5 vers la barre des 3, ou de l'une des barres gardien vers la barre des 5, sans contact avec la barre intermédiaire de l'équipe adverse, et où la balle ne devient pas atteignable par une barre adverse en aval de la barre de réception.
+**Passe directe**: Une passe de la barre des 5 vers la barre des 3, ou de l'une des barres des arrières vers la barre des 5, sans contact avec la barre intermédiaire de l'équipe adverse, et où la balle ne devient pas accessible par une barre adverse en aval de la barre de réception.
 
-**Rebond d'ailier**: Faire rebondir la balle avec une figurine ailière contre la bande latérale la plus proche, suivi d'un nouveau contact avec la même figurine ailière.
+**Rebond d'ailier**: Faire rebondir la balle avec une figurine ailière contre le montant le plus proche, suivi d'un nouveau contact avec la même figurine ailière.

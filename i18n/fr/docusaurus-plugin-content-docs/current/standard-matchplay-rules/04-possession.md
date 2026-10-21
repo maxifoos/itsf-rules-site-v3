@@ -50,15 +50,15 @@ Une balle est *précaire* lorsqu'elle est arrêtée et qu'une partie de la balle
 
 Un joueur ayant une balle précaire peut déclarer « Balle précaire » pour déclencher une interruption par un joueur, auquel cas le jeu actif s'arrête ; le joueur n'a pas à attendre l'expiration de la durée de possession. Si la balle tombe dans le but après la déclaration, le but ne compte pas ; la balle est récupérée et mise en jeu depuis la barre des 5 de l'équipe adverse.
 
-Les deux équipes observant la scène, le joueur déplace le gardien de but dans toute son amplitude de mouvement à la position de la balle afin de déterminer si elle est atteignable.
+Les deux équipes observant la scène, le joueur déplace le gardien de but dans toute son amplitude de mouvement à la position de la balle afin de déterminer si elle est accessible.
 
-- Si la balle est atteignable par le gardien de but, elle est récupérée et mise en jeu depuis la barre des 5 de l'équipe adverse
-- Si la balle est inatteignable par le gardien de but, il s'agit d'une balle morte ; elle est récupérée et mise en jeu depuis la barre des 2 de cette équipe
+- Si la balle est accessible par le gardien de but, elle est récupérée et mise en jeu depuis la barre des 5 de l'équipe adverse
+- Si la balle est inaccessible par le gardien de but, il s'agit d'une balle morte ; elle est récupérée et mise en jeu depuis la barre des 2 de cette équipe
 
 <details>
 <summary>Match arbitré</summary>
 
-L'arbitre détermine si la balle est précaire et supervise le test d'atteignabilité.
+L'arbitre détermine si la balle est précaire et supervise le test d'accessibilité.
 
 </details>
 

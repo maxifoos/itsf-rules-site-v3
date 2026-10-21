@@ -2,7 +2,7 @@
 sidebar_position: 3
 title: 3. Engagement et mise en jeu
 slug: /rules/kick-off-and-serve
-description: Mettre la balle en jeu par une mise en jeu, le protocole de préparation, et le transfert d'ouverture.
+description: Mettre la balle en jeu par une mise en jeu, le protocole du Prêt, et le transfert d'ouverture.
 ---
 
 # 3. Engagement et mise en jeu
@@ -20,16 +20,16 @@ Si l'engagement est effectué par la mauvaise équipe et que l'erreur est décou
 La mise en jeu est un processus en trois étapes pour mettre la balle en jeu :
 
 - Récupérer et positionner la balle
-- Protocole de préparation
+- Protocole du Prêt
 - Transfert d'ouverture
 
-La mise en jeu s'effectue depuis un emplacement du terrain de jeu conformément aux tableaux ci-dessous.
+La mise en jeu s'effectue depuis un emplacement de la surface de jeu conformément aux tableaux ci-dessous.
 
 ## 3.1 Récupérer et positionner la balle
 
-Si la balle n'est pas sur le terrain de jeu, elle est récupérée et donnée au joueur qui met en jeu.
+Si la balle n'est pas sur la surface de jeu, elle est récupérée et donnée au joueur qui met en jeu.
 
-Si la balle est sur le terrain de jeu, elle peut être jouée jusqu'à la barre de mise en jeu ou y être placée à la main.
+Si la balle est sur la surface de jeu, elle peut être jouée jusqu'à la barre de mise en jeu ou y être placée à la main.
 
 La barre de mise en jeu est déterminée comme suit :
 
@@ -52,19 +52,19 @@ En cas d'Attribution de possession de barre à la suite d'une infraction, l'équ
 | Option Reprise | Barre de la dernière possession contrôlée |
 | Penalty | Barre des 3 |
 
-La balle doit être positionnée à un emplacement de mise en jeu sur le terrain de jeu conformément au tableau suivant :
+La balle doit être positionnée à un emplacement de mise en jeu sur la surface de jeu conformément au tableau suivant :
 
-| Barre de mise en jeu | Figurine de mise en jeu | Emplacement de mise en jeu sur le terrain de jeu |
+| Barre de mise en jeu | Figurine de mise en jeu | Emplacement de mise en jeu sur la surface de jeu |
 | --- | --- | --- |
 | Barre des 2 | L'une ou l'autre figurine | N'importe où, à condition qu'aucune partie de la balle ne soit directement devant la bouche du but |
 | Barre des 5 | Figurine centrale | À portée de la figurine centrale |
-| Barre des 3 | L'une ou l'autre figurine ailière | Suffisamment proche de l'une des bandes latérales pour qu'une figurine ne puisse pas se glisser entre la bande et la balle |
+| Barre des 3 | L'une ou l'autre figurine ailière | Suffisamment proche de l'un des montants pour qu'une figurine ne puisse pas se glisser entre le montant et la balle |
 
-## 3.2 Protocole de préparation
+## 3.2 Protocole du Prêt
 
-Le *protocole de préparation* garantit que les deux équipes sont prêtes pour le jeu actif.
+Le *protocole du Prêt* garantit que les deux équipes sont prêtes pour le jeu actif.
 
-Le protocole de préparation peut commencer lorsque tous les joueurs sont en position à la table, en contrôle de leurs barres, et que la balle est arrêtée à un emplacement de terrain de jeu légal, à portée d'une figurine de mise en jeu légale.
+Le protocole du Prêt peut commencer lorsque tous les joueurs sont en position à la table, en contrôle de leurs barres, et que la balle est arrêtée à un emplacement de surface de jeu légal, à portée d'une figurine de mise en jeu légale.
 
 Le joueur qui met la balle en jeu demande au joueur adverse s'il est prêt pour le début du jeu actif en émettant l'*invite de préparation*. Le joueur adverse est alors tenu d'émettre la *réponse de préparation* sans délai. La barre de mise en jeu doit rester immobile jusqu'à ce que la réponse de préparation soit donnée.
 

@@ -46,11 +46,11 @@ Bien que les interruptions ne soient pas limitées dans le temps, elles doivent 
 
 ## 6.3 Balle morte
 
-Une *balle morte* est une balle arrêtée dans l'aire de jeu qui n'est atteignable par aucune barre.
+Une *balle morte* est une balle arrêtée dans l'aire de jeu qui n'est accessible par aucune barre.
 
-Les joueurs en contrôle des barres concernées doivent démontrer que la balle est inatteignable avant qu'elle puisse être déclarée morte.
+Les joueurs en contrôle des barres concernées doivent démontrer que la balle est inaccessible avant qu'elle puisse être déclarée morte.
 
-Si le seul moyen d'atteindre la balle consisterait à fléchir la barre, alors la balle est inatteignable et doit être traitée comme une balle morte.
+Si le seul moyen d'atteindre la balle consisterait à tordre la barre, alors la balle est inaccessible et doit être traitée comme une balle morte.
 
 Une balle morte est mise en jeu sans délai depuis l'emplacement spécifié :
 
@@ -66,14 +66,14 @@ Un joueur ne doit pas jouer la balle morte en utilisant un mouvement ascendant d
 :::
 
 :::danger[Règle : Flexion illégale]
-Un joueur ne doit pas entrer en contact avec une balle par ailleurs inatteignable en fléchissant une barre.
+Un joueur ne doit pas entrer en contact avec une balle par ailleurs inaccessible en tordant une barre.
 
 **Compensation :** Attribution de possession barre des 5
 :::
 
 ## 6.4 Balle hors table
 
-Si la balle quitte l'aire de jeu et heurte un objet étranger soit sur le caisson, soit à l'extérieur de la table, ou s'immobilise sur le dessus du caisson, une *balle hors table* est alors déclarée.
+Si la balle quitte l'aire de jeu et heurte un objet étranger soit sur le cadre de la table, soit à l'extérieur de la table, ou s'immobilise sur le dessus du cadre de la table, une *balle hors table* est alors déclarée.
 
 L'équipe ayant eu la dernière possession contrôlée est identifiée, et la balle est mise en jeu par la barre des 2 de l'autre équipe.
 
@@ -85,21 +85,21 @@ La balle est hors table si elle quitte l'aire de jeu et :
 
 - heurte une personne ou tout objet extérieur à la table (par exemple le sol, le plafond ou un mur de la pièce)
 - heurte tout accessoire qui ne fait pas partie d'origine de la table
-- heurte un objet étranger reposant sur le caisson
-- s'immobilise sur le dessus du caisson
-- vole au-delà du périmètre du caisson
+- heurte un objet étranger reposant sur le cadre de la table
+- s'immobilise sur le dessus du cadre de la table
+- vole au-delà du périmètre du cadre de la table
 
 La balle n'est pas hors table et le jeu actif se poursuit sans interruption si elle revient dans l'aire de jeu après avoir :
 
 - heurté un poteau de but ou une barre transversale
 - heurté toute partie d'un ensemble de but
 - heurté un compteur de score
-- rebondi ou roulé sur le dessus du caisson
+- rebondi ou roulé sur le dessus du cadre de la table
 - pénétré dans un orifice de mise en jeu depuis l'aire de jeu
-- été projetée en l'air directement au-dessus de l'aire de jeu ou du caisson
+- été projetée en l'air directement au-dessus de l'aire de jeu ou du cadre de la table
 
 :::danger[Règle : Rattrapage aérien illégal]
-Un joueur ne doit pas attraper ni interagir intentionnellement de toute autre manière avec une balle qui est en l'air au-dessus du périmètre du caisson.
+Un joueur ne doit pas attraper ni interagir intentionnellement de toute autre manière avec une balle qui est en l'air au-dessus du périmètre du cadre de la table.
 
 **Sanction :** Infraction de conduite
 :::
@@ -150,7 +150,7 @@ Une *réclamation d'infraction* est une réclamation par un joueur selon laquell
 :::danger[Règle : Interruption pour auto-infraction]
 Un joueur ne doit pas interrompre le jeu actif pour déclarer une infraction commise par sa propre équipe.
 
-**Sanction :** Attribution de possession - première barre atteignable
+**Sanction :** Attribution de possession - première barre accessible
 :::
 
 Les joueurs sont censés résoudre eux-mêmes les réclamations d'infraction rapidement et efficacement, de manière amicale.

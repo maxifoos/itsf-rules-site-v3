@@ -118,8 +118,8 @@ Un arbitre appelé à la table pour régler un différend peut prononcer une Inf
 | Carton | Sanction |
 | --- | --- |
 | Jaune | Penalty |
-| Premier rouge | Forfait de manche |
-| Second rouge | Forfait de match |
+| Premier rouge | Manche perdue |
+| Second rouge | Match perdu |
 
 Les joueurs ne doivent pas remettre en question ni contester un arbitre qui dégaine un carton de pénalité.
 

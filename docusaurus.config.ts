@@ -97,17 +97,6 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'ITSF Website',
-              href: 'https://www.tablesoccer.org',
-            },
-          ],
-        },
-      ],
       copyright: `Unofficial rendering of the ITSF Standard Matchplay Rules (Version 3.0). Built with Docusaurus. © ${new Date().getFullYear()}.`,
     },
     prism: {

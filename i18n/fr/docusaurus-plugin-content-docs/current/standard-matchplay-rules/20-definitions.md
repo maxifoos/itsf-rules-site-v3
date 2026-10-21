@@ -43,7 +43,7 @@ Les termes définis sont utilisés de manière cohérente dans l'ensemble du rè
 
 **Zone de barre**: Une zone de barre des 3, une zone de barre des 5, ou une zone gardien.
 
-**Montant**: L'une des deux surfaces verticales internes qui délimitent les côtés de l'aire de jeu, y compris tout liseré qui longe chaque côté du montant.
+**Montant**: L'une des deux surfaces verticales internes qui délimitent les côtés de l'aire de jeu, y compris toute rampe qui longe chaque côté du montant.
 
 **Zone de frappe**: La zone qui comprend tous les angles de rotation d'une barre entre une position de butée arrière et une position de butée avant.
 

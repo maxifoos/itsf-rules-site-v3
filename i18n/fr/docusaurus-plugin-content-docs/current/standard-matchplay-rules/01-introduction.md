@@ -13,7 +13,7 @@ Cette traduction française a été produite par IA et n'a pas encore été relu
 
 ## 1.1 Portée
 
-Ce document définit les règles ITSF de Matchplay Standard du babyfoot, couvrant les règles de jeu pour les épreuves de simple standard et de double standard. Les règles de jeu pour les autres types d'épreuves ne sont pas décrites dans ce document.
+Ce document définit les règles ITSF de Matchplay Standard du baby-foot, couvrant les règles de jeu pour les épreuves de simple standard et de double standard. Les règles de jeu pour les autres types d'épreuves ne sont pas décrites dans ce document.
 
 Ces Règles de Matchplay Standard définissent la manière dont les matchs doivent être joués ; elles ne couvrent pas tous les aspects de la conduite en tournoi, de l'usage de substances ou du code vestimentaire.
 

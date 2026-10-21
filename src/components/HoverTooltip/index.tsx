@@ -1,4 +1,12 @@
-import React, {useCallback, useLayoutEffect, useRef, useState, type ReactNode} from 'react';
+import React, {
+  createContext,
+  useCallback,
+  useContext,
+  useLayoutEffect,
+  useRef,
+  useState,
+  type ReactNode,
+} from 'react';
 import {createPortal} from 'react-dom';
 import styles from './styles.module.css';
 
@@ -7,6 +15,15 @@ const EDGE_MARGIN = 12;
 // Keeps the tooltip open while the pointer travels from the trigger into the
 // (portaled) tooltip itself, e.g. to hover a nested term inside it.
 const HIDE_DELAY = 120;
+
+// The top edge (viewport px) of the nearest currently-open ancestor tooltip.
+// A tooltip opened from a term inside another tooltip reads this and stacks
+// above that box instead of above its own trigger word, which would often
+// be the same line as, or lower than, the ancestor's own top edge and so
+// overlap it. Each tooltip provides its own measured top edge to whatever
+// opens inside it, so a chain of nested tooltips stacks upward, one above
+// the next, however deep it goes.
+const TooltipStackContext = createContext<number | null>(null);
 
 export default function HoverTooltip({
   triggerClassName,
@@ -19,8 +36,10 @@ export default function HoverTooltip({
   children: ReactNode;
   tooltip: ReactNode;
 }): ReactNode {
+  const stackTop = useContext(TooltipStackContext);
   const [visible, setVisible] = useState(false);
   const [coords, setCoords] = useState<{top: number; left: number} | null>(null);
+  const [ownTop, setOwnTop] = useState<number | null>(null);
   const triggerRef = useRef<HTMLSpanElement>(null);
   const tooltipRef = useRef<HTMLSpanElement>(null);
   const hideTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
@@ -29,17 +48,19 @@ export default function HoverTooltip({
     if (hideTimer.current) clearTimeout(hideTimer.current);
     const rect = triggerRef.current?.getBoundingClientRect();
     if (rect) {
-      setCoords({top: rect.top - GAP, left: rect.left + rect.width / 2});
+      const top = stackTop !== null ? stackTop - GAP : rect.top - GAP;
+      setCoords({top, left: rect.left + rect.width / 2});
     }
     setVisible(true);
-  }, []);
+  }, [stackTop]);
 
   const scheduleHide = useCallback(() => {
     hideTimer.current = setTimeout(() => setVisible(false), HIDE_DELAY);
   }, []);
 
   // Nudge the tooltip back on-screen if centering it on the trigger would
-  // otherwise push it past the left/right edge of the viewport.
+  // otherwise push it past the left/right edge of the viewport, and record
+  // its own top edge for any tooltip nested inside it to stack above.
   useLayoutEffect(() => {
     if (!visible || !coords || !tooltipRef.current) return;
     const rect = tooltipRef.current.getBoundingClientRect();
@@ -53,7 +74,10 @@ export default function HoverTooltip({
     if (left !== coords.left) {
       tooltipRef.current.style.left = `${left}px`;
     }
-  }, [visible, coords]);
+    if (rect.top !== ownTop) {
+      setOwnTop(rect.top);
+    }
+  }, [visible, coords, ownTop]);
 
   return (
     <span
@@ -76,7 +100,9 @@ export default function HoverTooltip({
               onMouseEnter={show}
               onMouseLeave={scheduleHide}
             >
-              {tooltip}
+              <TooltipStackContext.Provider value={ownTop ?? coords.top}>
+                {tooltip}
+              </TooltipStackContext.Provider>
             </span>,
             document.body,
           )

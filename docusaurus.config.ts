@@ -99,23 +99,6 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Rules',
-          items: [
-            {
-              label: 'Introduction',
-              to: '/rules/introduction',
-            },
-            {
-              label: 'Definitions',
-              to: '/rules/definitions',
-            },
-            {
-              label: 'Awards and Sanctions',
-              to: '/rules/awards-and-sanctions',
-            },
-          ],
-        },
-        {
           title: 'More',
           items: [
             {

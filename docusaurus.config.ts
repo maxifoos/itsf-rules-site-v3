@@ -75,8 +75,9 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // Social card shown when a link to the site is shared (Discord, Slack,
+    // Twitter/X, etc.).
+    image: 'img/social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
     },

@@ -2,6 +2,7 @@ import React, {
   createContext,
   useCallback,
   useContext,
+  useEffect,
   useLayoutEffect,
   useRef,
   useState,
@@ -86,6 +87,33 @@ export default function HoverTooltip({
       setOwnTop(rect.top);
     }
   }, [visible, coords, ownTop]);
+
+  // Mouse users close a tooltip by moving the pointer away, but there is no
+  // such thing on touch — a tap opens it (via onFocus) and nothing before
+  // this closed it again, leaving it stuck over the content. Close on a
+  // tap/click anywhere outside this tooltip and its own trigger, and on
+  // Escape, without affecting mouse hover behaviour.
+  useEffect(() => {
+    if (!visible) return;
+    const handleOutside = (event: PointerEvent) => {
+      const target = event.target as Node;
+      if (triggerRef.current?.contains(target)) return;
+      if (tooltipRef.current?.contains(target)) return;
+      if (hideTimer.current) clearTimeout(hideTimer.current);
+      setVisible(false);
+    };
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key !== 'Escape') return;
+      if (hideTimer.current) clearTimeout(hideTimer.current);
+      setVisible(false);
+    };
+    document.addEventListener('pointerdown', handleOutside, true);
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('pointerdown', handleOutside, true);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [visible]);
 
   return (
     <span

@@ -8,6 +8,19 @@
   cursor: help;
 }
 
+/* On touch devices there's no hover affordance to hint that this text opens
+   something, so give it a visible tap target instead: a faint pill behind
+   the word rather than a thin underline few people will read as "tap me". */
+@media (hover: none) {
+  .outcomeTerm {
+    background: rgba(244, 63, 94, 0.14);
+    border-radius: 4px;
+    padding: 0.05em 0.2em;
+    margin: 0 -0.2em;
+    text-decoration-thickness: 1.5px;
+  }
+}
+
 .tooltip {
   display: flex;
   flex-direction: column;

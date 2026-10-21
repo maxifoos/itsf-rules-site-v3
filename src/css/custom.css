@@ -32,3 +32,22 @@
 
 /* Glossary term styling now lives in src/components/GlossaryTerm (CSS module),
    since the tooltip needs rich content (title + bolded nested terms). */
+
+/* Cap body text at roughly 65-75 characters per line instead of stretching
+   across the full content column on wide screens - long lines are harder
+   to read. No effect on narrow/mobile viewports, which are already below
+   this width. */
+.markdown {
+  max-width: 760px;
+}
+
+/* The mobile nav drawer's rows default to Infima's dense desktop sidebar
+   padding (~32px tall). Give them more breathing room for touch, without
+   touching the desktop sidebar. */
+@media (max-width: 996px) {
+  .navbar-sidebar .menu__link,
+  .navbar-sidebar .menu__list-item-collapsible {
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+  }
+}

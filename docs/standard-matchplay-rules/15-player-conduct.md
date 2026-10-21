@@ -80,9 +80,12 @@ A player must not solicit coaching or engage with any attempt to coach during ac
 
 A player may request a medical break at any time outside active play, or during active play by initiating a player interrupt when the ball is stopped. Any dispute regarding a medical break should be escalated to the tournament director.
 
-:::note[Refereed Match]
+<details>
+<summary>Refereed Match</summary>
+
 The referee will decide whether the medical break request is approved, and if so, will communicate the maximum duration of the break to the players, which must not exceed 30 minutes. If the request is declined the referee will instruct the player to continue play. If the player is unable to continue after the medical break has expired, then the Tournament Director shall be consulted in order to determine whether the medical break can be extended or if the team shall forfeit the match.
-:::
+
+</details>
 
 :::tip[Referee Guidance]
 A referee has the discretion to allow a personal break for an exceptional essential non-medical issue, for example an urgent phone call or a tournament management responsibility. An urgent bathroom break can be handled as a medical break.

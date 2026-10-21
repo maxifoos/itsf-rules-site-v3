@@ -23,6 +23,9 @@ The team with the serve loses the option to call a time-out when they issue the 
 
 The permissions and restrictions of the original pause continue to apply during the extended pause.
 
-:::note[Refereed Match]
+<details>
+<summary>Refereed Match</summary>
+
 If a timekeeping referee is at the table then they will time the pause between games, and any pause extended or reopened by a time-out. The referee will place the timer on the top of the table for the players to view. They will also announce the time remaining at appropriate intervals. At the end of the pause the referee will instruct the teams to "Play!" and the player with possession must put the ball into play with a serve. Delays by either team are subject to the [Delay of Game](./08-delay-of-game.md) rule.
-:::
+
+</details>

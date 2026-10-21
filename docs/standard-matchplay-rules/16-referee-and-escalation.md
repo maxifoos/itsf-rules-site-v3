@@ -104,7 +104,9 @@ A player must not make an unsuccessful Rule Challenge.
 
 A player may inform the offending player that their conduct is prohibited and ask them to stop. If necessary, the player may request a referee to resolve the matter.
 
-:::note[Refereed Match]
+<details>
+<summary>Refereed Match</summary>
+
 If the referee believes that a player has violated a rule for which the sanction is a Conduct Violation then they may apply a penalty card. Depending on the nature of the infraction, the referee may issue one or more verbal warnings prior to deploying a penalty card.
 
 A referee who is called to the table to resolve a dispute may issue a Conduct Violation for conduct that occurred before their arrival if the relevant facts can be established.
@@ -116,4 +118,5 @@ A referee who is called to the table to resolve a dispute may issue a Conduct Vi
 | Second Red | Forfeit Match |
 
 Players must not question or challenge a referee who deploys a penalty card.
-:::
+
+</details>

@@ -162,11 +162,14 @@ An infraction claim is processed according to the following steps:
 - The appropriate award and/or sanction is determined and applied
 - Active play resumes
 
-:::note[Refereed Match]
+<details>
+<summary>Refereed Match</summary>
+
 In a refereed match the players must not make player interrupts to make infraction claims. The referee will decide whether a rule infraction has occurred and if so will issue a referee interrupt. Under certain circumstances the referee might delay interrupting active play until the outcome of a transition is clear. The referee's ruling can be based on information obtained from the players, spectators, other referees and from available video recordings.
 
 However, a player can interrupt play to make a referee fact challenge or rule challenge. See [Referee and Escalation](./16-referee-and-escalation.md).
-:::
+
+</details>
 
 ### 6.7.1 Interrupt or Continue
 

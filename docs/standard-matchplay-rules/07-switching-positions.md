@@ -25,9 +25,12 @@ The players in a doubles team must not switch positions during active play.
 
 As soon as possible after the first game played, either team may request to switch table sides, in which case the teams must switch sides after each game. However, the teams can subsequently agree to stop switching sides, in which case after doing so they must remain on the same sides for the rest of the match. Side switching must be performed without delay.
 
-:::note[Refereed Match]
+<details>
+<summary>Refereed Match</summary>
+
 Upon completion of the first game played the referee will prompt the teams with the option to switch sides.
-:::
+
+</details>
 
 ## 7.2 Practice
 

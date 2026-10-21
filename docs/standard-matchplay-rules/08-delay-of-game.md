@@ -9,9 +9,12 @@ description: Players must keep the match moving between the pauses and interrupt
 
 Players must not cause delay to the match. Play should be continuous except for the pauses and interrupts allowed for by the rules. Interrupts should be resolved without delay.
 
-:::note[Refereed Match]
+<details>
+<summary>Refereed Match</summary>
+
 If the referee announces "Play!", the player with possession must serve the ball without delay. Any player causing delay during the serve is in breach of the Delay of Game rule.
-:::
+
+</details>
 
 :::danger[Rule: Delay of Game]
 Players must not cause delay to the match.

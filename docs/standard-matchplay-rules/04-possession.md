@@ -29,9 +29,12 @@ If they disagree, the match should then continue under time control, and the tea
 
 A player should not interrupt active play for a close or uncertain count. A recurring concern about possession time should instead be raised during a break in play, with a request for time control.
 
-:::note[Refereed Match]
+<details>
+<summary>Refereed Match</summary>
+
 A timekeeping referee will call "Time!" to declare a possession time infraction. In a match with a referee who is not timekeeping, any player can request time control during a break in play.
-:::
+
+</details>
 
 ## 4.2 Precarious Ball
 
@@ -48,9 +51,12 @@ With both teams observing, the player moves the goalkeeper through its range of 
 - If the ball is reachable by the goalkeeper, it is retrieved and served from the opposing team's 5-rod
 - If the ball is unreachable by the goalkeeper, it is a dead ball and is retrieved and served from that team's 2-rod
 
-:::note[Refereed Match]
+<details>
+<summary>Refereed Match</summary>
+
 The referee determines whether the ball is precarious and supervises the reachability test.
-:::
+
+</details>
 
 ## 4.3 Match Record
 

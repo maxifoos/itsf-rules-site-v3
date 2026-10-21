@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Règles ITSF de Matchplay Standard (V3)",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logo ITSF",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.ITSF Website": {
+    "message": "Site de l'ITSF",
+    "description": "Navbar item with label ITSF Website"
+  }
+}

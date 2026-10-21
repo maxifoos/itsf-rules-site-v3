@@ -7,8 +7,8 @@
 # Generated files
 .docusaurus
 .cache-loader
-/src/data/glossary.json
-/src/data/outcomes.json
+/src/data/glossary.*.json
+/src/data/outcomes.*.json
 
 # Misc
 .DS_Store

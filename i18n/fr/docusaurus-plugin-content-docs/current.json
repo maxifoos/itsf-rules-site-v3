@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.rulesSidebar.category.Standard Matchplay Rules": {
+    "message": "Règles de Matchplay Standard",
+    "description": "The label for category 'Standard Matchplay Rules' in sidebar 'rulesSidebar'"
+  },
+  "sidebar.rulesSidebar.category.Standard Matchplay Rules.link.generated-index.title": {
+    "message": "Règles de Matchplay Standard",
+    "description": "The generated-index page title for category 'Standard Matchplay Rules' in sidebar 'rulesSidebar'"
+  },
+  "sidebar.rulesSidebar.category.Standard Matchplay Rules.link.generated-index.description": {
+    "message": "Les Règles ITSF de Matchplay Standard (Version 3.0), organisées par section.",
+    "description": "The generated-index page description for category 'Standard Matchplay Rules' in sidebar 'rulesSidebar'"
+  },
+  "sidebar.rulesSidebar.category.Starting a Match": {
+    "message": "Débuter un match",
+    "description": "The label for category 'Starting a Match' in sidebar 'rulesSidebar'"
+  },
+  "sidebar.rulesSidebar.category.During Play": {
+    "message": "Pendant le jeu",
+    "description": "The label for category 'During Play' in sidebar 'rulesSidebar'"
+  },
+  "sidebar.rulesSidebar.category.Equipment & Conduct": {
+    "message": "Matériel et conduite",
+    "description": "The label for category 'Equipment & Conduct' in sidebar 'rulesSidebar'"
+  },
+  "sidebar.rulesSidebar.category.Officiating & Sanctions": {
+    "message": "Arbitrage et sanctions",
+    "description": "The label for category 'Officiating & Sanctions' in sidebar 'rulesSidebar'"
+  },
+  "sidebar.rulesSidebar.category.Reference": {
+    "message": "Référence",
+    "description": "The label for category 'Reference' in sidebar 'rulesSidebar'"
+  }
+}

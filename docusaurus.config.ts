@@ -34,7 +34,7 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'fr', 'de'],
   },
 
   themes: [
@@ -42,7 +42,7 @@ const config: Config = {
       '@easyops-cn/docusaurus-search-local',
       {
         hashed: true,
-        language: ['en'],
+        language: ['en', 'fr', 'de'],
         indexDocs: true,
         indexBlog: false,
         indexPages: false,
@@ -88,6 +88,10 @@ const config: Config = {
         src: 'img/itsf-logo.png',
       },
       items: [
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
         {
           href: 'https://www.tablesoccer.org',
           label: 'ITSF Website',

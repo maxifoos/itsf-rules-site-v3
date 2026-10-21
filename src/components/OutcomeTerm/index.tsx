@@ -1,15 +1,30 @@
 import React, {type ReactNode} from 'react';
-import outcomeEntries from '@site/src/data/outcomes.json';
-import glossaryEntries from '@site/src/data/glossary.json';
-import {buildGlossaryIndex, splitByGlossaryMatches} from '@site/src/utils/glossaryMatch';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import outcomesEn from '@site/src/data/outcomes.en.json';
+import outcomesFr from '@site/src/data/outcomes.fr.json';
+import outcomesDe from '@site/src/data/outcomes.de.json';
+import glossaryEn from '@site/src/data/glossary.en.json';
+import glossaryFr from '@site/src/data/glossary.fr.json';
+import glossaryDe from '@site/src/data/glossary.de.json';
+import {buildGlossaryIndex, splitByGlossaryMatches, type GlossaryEntry} from '@site/src/utils/glossaryMatch';
 import GlossaryTerm from '@site/src/components/GlossaryTerm';
 import HoverTooltip from '@site/src/components/HoverTooltip';
 import styles from './styles.module.css';
 
-const outcomeIndex = buildGlossaryIndex(outcomeEntries);
-// Award/Sanction descriptions reference regular glossary concepts (possession, team, restart, ...);
-// nested matches there link to the real GlossaryTerm, same as running prose.
-const glossaryIndex = buildGlossaryIndex(glossaryEntries);
+// Mirrors scripts/generate-data.js: one Awards/Sanctions index per
+// translated locale.
+const OUTCOMES_BY_LOCALE: Record<string, GlossaryEntry[]> = {en: outcomesEn, fr: outcomesFr, de: outcomesDe};
+const outcomeIndexByLocale = Object.fromEntries(
+  Object.entries(OUTCOMES_BY_LOCALE).map(([locale, entries]) => [locale, buildGlossaryIndex(entries)]),
+);
+
+// Award/Sanction descriptions reference regular glossary concepts (possession,
+// team, restart, ...); nested matches there link to the real GlossaryTerm,
+// same as running prose.
+const GLOSSARY_BY_LOCALE: Record<string, GlossaryEntry[]> = {en: glossaryEn, fr: glossaryFr, de: glossaryDe};
+const glossaryIndexByLocale = Object.fromEntries(
+  Object.entries(GLOSSARY_BY_LOCALE).map(([locale, entries]) => [locale, buildGlossaryIndex(entries)]),
+);
 
 export default function OutcomeTerm({
   term,
@@ -18,6 +33,9 @@ export default function OutcomeTerm({
   term: string;
   children: ReactNode;
 }): ReactNode {
+  const {i18n} = useDocusaurusContext();
+  const outcomeIndex = outcomeIndexByLocale[i18n.currentLocale] ?? outcomeIndexByLocale.en;
+  const glossaryIndex = glossaryIndexByLocale[i18n.currentLocale] ?? glossaryIndexByLocale.en;
   const entry = outcomeIndex.lookup.get(term.toLowerCase());
   if (!entry) {
     return <>{children}</>;

@@ -1,10 +1,19 @@
 import React, {type ReactNode} from 'react';
-import glossaryEntries from '@site/src/data/glossary.json';
-import {buildGlossaryIndex, splitByGlossaryMatches} from '@site/src/utils/glossaryMatch';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import glossaryEn from '@site/src/data/glossary.en.json';
+import glossaryFr from '@site/src/data/glossary.fr.json';
+import glossaryDe from '@site/src/data/glossary.de.json';
+import {buildGlossaryIndex, splitByGlossaryMatches, type GlossaryEntry} from '@site/src/utils/glossaryMatch';
 import HoverTooltip from '@site/src/components/HoverTooltip';
 import styles from './styles.module.css';
 
-const glossaryIndex = buildGlossaryIndex(glossaryEntries);
+// Mirrors scripts/generate-data.js and src/remark/glossaryTerms.ts: one
+// glossary per translated locale, since the tooltip body re-matches nested
+// terms against whichever language it's currently rendering.
+const GLOSSARY_BY_LOCALE: Record<string, GlossaryEntry[]> = {en: glossaryEn, fr: glossaryFr, de: glossaryDe};
+const glossaryIndexByLocale = Object.fromEntries(
+  Object.entries(GLOSSARY_BY_LOCALE).map(([locale, entries]) => [locale, buildGlossaryIndex(entries)]),
+);
 
 function capitalize(term: string): string {
   return term.charAt(0).toUpperCase() + term.slice(1);
@@ -23,6 +32,8 @@ export default function GlossaryTerm({
   // definitions renders as plain text instead of recursing forever.
   ancestorTerms?: ReadonlySet<string>;
 }): ReactNode {
+  const {i18n} = useDocusaurusContext();
+  const glossaryIndex = glossaryIndexByLocale[i18n.currentLocale] ?? glossaryIndexByLocale.en;
   const entry = glossaryIndex.lookup.get(term.toLowerCase());
   if (!entry) {
     return <>{children}</>;

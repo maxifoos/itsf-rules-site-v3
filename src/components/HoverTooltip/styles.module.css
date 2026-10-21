@@ -1,0 +1,11 @@
+/* Base positioning shared by every tooltip, portaled to <body> so it can
+   escape ancestors with overflow clipping (e.g. a scrollable table). Visual
+   styling (colors, border) is layered on top via the caller's own class. */
+.portalTooltip {
+  position: fixed;
+  transform: translate(-50%, -100%);
+  white-space: normal;
+  width: max-content;
+  max-width: min(320px, calc(100vw - 24px));
+  z-index: 9999;
+}

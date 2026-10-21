@@ -1,0 +1,46 @@
+.defTerm {
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #00d1e7;
+  text-decoration-thickness: from-font;
+  text-underline-offset: 3px;
+  cursor: help;
+}
+
+.tooltip {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  background: #1c1c1e;
+  border: 1px solid rgba(0, 209, 231, 0.35);
+  color: #f3f4f6;
+  padding: 0.65rem 0.85rem;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.tooltipTitle {
+  color: #00d1e7;
+  font-weight: 700;
+  font-size: 0.78rem;
+  text-transform: capitalize;
+  letter-spacing: 0.01em;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.tooltipBody {
+  color: #f3f4f6;
+}
+
+.tooltipTerm {
+  color: #00d1e7;
+  font-weight: 700;
+  font-style: normal;
+}

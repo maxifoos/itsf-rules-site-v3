@@ -1,0 +1,34 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+/* Brand blue (#00d1e7), darkened for AA text contrast against a white background. */
+:root {
+  --ifm-color-primary: #007e8b;
+  --ifm-color-primary-dark: #00656f;
+  --ifm-color-primary-darker: #00565f;
+  --ifm-color-primary-darkest: #003238;
+  --ifm-color-primary-light: #00c1d5;
+  --ifm-color-primary-lighter: #03e7ff;
+  --ifm-color-primary-lightest: #7df3ff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* Full-brightness brand blue in dark mode, where it has strong contrast on the dark background. */
+[data-theme='dark'] {
+  --ifm-color-primary: #00d1e7;
+  --ifm-color-primary-dark: #00a7b9;
+  --ifm-color-primary-darker: #008e9d;
+  --ifm-color-primary-darkest: #00545c;
+  --ifm-color-primary-light: #20eaff;
+  --ifm-color-primary-lighter: #41edff;
+  --ifm-color-primary-lightest: #9df6ff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Glossary term styling now lives in src/components/GlossaryTerm (CSS module),
+   since the tooltip needs rich content (title + bolded nested terms). */

@@ -13,16 +13,25 @@ function capitalize(term: string): string {
 export default function GlossaryTerm({
   term,
   children,
+  ancestorTerms,
 }: {
   term: string;
   children: ReactNode;
+  // Terms already shown higher up this chain of nested tooltips (this term
+  // included once resolved below). Passed down when a definition's own
+  // tooltip nests further GlossaryTerms, so a cycle of cross-referencing
+  // definitions renders as plain text instead of recursing forever.
+  ancestorTerms?: ReadonlySet<string>;
 }): ReactNode {
   const entry = glossaryIndex.lookup.get(term.toLowerCase());
   if (!entry) {
     return <>{children}</>;
   }
 
-  const bodySegments = splitByGlossaryMatches(entry.definition, glossaryIndex, entry.term.toLowerCase());
+  const ownAncestors = new Set(ancestorTerms);
+  ownAncestors.add(entry.term.toLowerCase());
+
+  const bodySegments = splitByGlossaryMatches(entry.definition, glossaryIndex, ownAncestors);
 
   return (
     <HoverTooltip
@@ -34,9 +43,9 @@ export default function GlossaryTerm({
           <span className={styles.tooltipBody}>
             {bodySegments.map((segment, i) =>
               segment.match ? (
-                <strong key={i} className={styles.tooltipTerm}>
+                <GlossaryTerm key={i} term={segment.match.term} ancestorTerms={ownAncestors}>
                   {segment.text}
-                </strong>
+                </GlossaryTerm>
               ) : (
                 <React.Fragment key={i}>{segment.text}</React.Fragment>
               ),

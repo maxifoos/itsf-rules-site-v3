@@ -32,12 +32,15 @@ export function buildGlossaryIndex(entries: GlossaryEntry[]): GlossaryIndex {
 
 /**
  * Splits `text` into plain and matched segments against the glossary index.
- * `excludeTerm` (lowercased) lets a term's own tooltip skip re-highlighting itself.
+ * `excludeTerms` (lowercased) skips re-highlighting any term already shown
+ * higher up a chain of nested tooltips — a term's own tooltip excludes
+ * itself, and a tooltip nested inside another also excludes every ancestor,
+ * so a cycle of cross-referencing definitions can't recurse forever.
  */
 export function splitByGlossaryMatches(
   text: string,
   index: GlossaryIndex,
-  excludeTerm?: string,
+  excludeTerms?: ReadonlySet<string>,
 ): GlossarySegment[] {
   const {matcher, lookup} = index;
   matcher.lastIndex = 0;
@@ -56,7 +59,7 @@ export function splitByGlossaryMatches(
       segments.push({text: text.slice(lastIndex, start)});
     }
     const entry = lookup.get(matchedText.toLowerCase());
-    if (entry && entry.term.toLowerCase() !== excludeTerm) {
+    if (entry && !excludeTerms?.has(entry.term.toLowerCase())) {
       segments.push({text: matchedText, match: entry});
     } else {
       segments.push({text: matchedText});

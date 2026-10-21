@@ -10,11 +10,19 @@ import React, {
 import {createPortal} from 'react-dom';
 import styles from './styles.module.css';
 
-const GAP = 10;
+const ROOT_GAP = 10;
+// Stacked tooltips overlap their ancestor by a couple of pixels rather than
+// leaving a gap above it. Any gap at all is dead space the pointer has to
+// cross in a straight line within HIDE_DELAY, and missing it even slightly
+// (the usual case with a real, not perfectly vertical, mouse movement)
+// closes the ancestor — which unmounts every tooltip stacked on top of it.
+// Overlapping removes that dead space entirely: the pointer is always over
+// one tooltip or the other.
+const STACK_OVERLAP = 4;
 const EDGE_MARGIN = 12;
-// Keeps the tooltip open while the pointer travels from the trigger into the
+// Keeps a tooltip open while the pointer travels from its trigger into the
 // (portaled) tooltip itself, e.g. to hover a nested term inside it.
-const HIDE_DELAY = 120;
+const HIDE_DELAY = 200;
 
 // The top edge (viewport px) of the nearest currently-open ancestor tooltip.
 // A tooltip opened from a term inside another tooltip reads this and stacks
@@ -48,7 +56,7 @@ export default function HoverTooltip({
     if (hideTimer.current) clearTimeout(hideTimer.current);
     const rect = triggerRef.current?.getBoundingClientRect();
     if (rect) {
-      const top = stackTop !== null ? stackTop - GAP : rect.top - GAP;
+      const top = stackTop !== null ? stackTop + STACK_OVERLAP : rect.top - ROOT_GAP;
       setCoords({top, left: rect.left + rect.width / 2});
     }
     setVisible(true);

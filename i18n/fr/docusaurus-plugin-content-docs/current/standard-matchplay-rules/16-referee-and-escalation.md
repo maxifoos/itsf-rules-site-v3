@@ -16,8 +16,8 @@ Cette traduction française a été produite par IA et n'a pas encore été relu
 Les points d'escalade sont globaux pour l'ensemble du règlement et s'accumulent par match, comme suit :
 
 - Escalade 1 : Avertissement
-- Escalade 2 : Continuer ou Attribution de possession 5-barres
-- Escalade 3 et au-delà : Tir de pénalité
+- Escalade 2 : Continuer ou Attribution de possession barre des 5
+- Escalade 3 et au-delà : Penalty
 
 ## 16.2 Demande d'arbitre
 
@@ -61,7 +61,7 @@ Les joueurs doivent connaître les annonces suivantes qu'un arbitre peut faire p
 | --- | --- | --- |
 | « Stop ! » | Interruption par l'arbitre | La balle doit être arrêtée et tenue |
 | « Temps ! » | Infraction de durée de possession | La balle doit être arrêtée et tenue |
-| « Remise à zéro » | Infraction mineure | Le jeu actif continue |
+| « Reset » | Infraction mineure | Le jeu actif continue |
 
 Les joueurs doivent également connaître les annonces suivantes qu'un arbitre peut faire pendant une rupture du jeu :
 
@@ -79,15 +79,15 @@ Toute contestation doit être formulée avant que le jeu actif ne reprenne, ou, 
 Un joueur peut demander une contestation de fait s'il est en désaccord avec l'arbitre sur ce qui s'est réellement passé à la table, par exemple pour savoir si :
 
 - la balle est entrée dans le but
-- la balle a touché un bonhomme
-- la balle a été surbondie sur la 5-barres
+- la balle a touché une figurine
+- la balle a été surbondie sur la barre des 5
 
 Une contestation de fait peut être résolue en utilisant les observations d'un autre arbitre ou, si nécessaire et disponible, des preuves vidéo. À l'issue de l'examen, la contestation est jugée soit recevable, soit non recevable.
 
 :::danger[Règle : Deux contestations de fait non recevables]
 Un joueur ne doit pas formuler plus d'une contestation de fait non recevable au cours d'une manche.
 
-**Sanction :** Tir de pénalité
+**Sanction :** Penalty
 :::
 
 ## 16.6 Contestation de règle
@@ -101,7 +101,7 @@ Si la Contestation de règle n'est pas recevable, l'équipe à l'origine de la d
 :::danger[Règle : Contestation de règle non recevable]
 Un joueur ne doit pas formuler de Contestation de règle non recevable.
 
-**Sanction :** Tir de pénalité, plus aucune Contestation de règle autorisée pour le reste du match
+**Sanction :** Penalty, plus aucune Contestation de règle autorisée pour le reste du match
 :::
 
 ## 16.7 Cartons de pénalité
@@ -117,7 +117,7 @@ Un arbitre appelé à la table pour régler un différend peut prononcer une Inf
 
 | Carton | Sanction |
 | --- | --- |
-| Jaune | Tir de pénalité |
+| Jaune | Penalty |
 | Premier rouge | Forfait de manche |
 | Second rouge | Forfait de match |
 

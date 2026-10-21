@@ -19,7 +19,7 @@ Une équipe ayant droit à une attribution de possession peut choisir à la plac
 
 L'option Continuer peut être exercée explicitement lorsqu'une réclamation d'infraction est en cours de traitement, ou implicitement si l'équipe non fautive poursuit le jeu actif, auquel cas elle perd le droit de déclarer l'infraction après avoir effectué une transition contrôlée suite à sa prochaine possession contrôlée.
 
-**Attribution de possession - barre de contact**: Pendant ou immédiatement après l'infraction, si la balle entre en contact avec un bonhomme ou une barre de l'équipe non fautive, la balle est alors attribuée à l'équipe non fautive sur la barre où le contact s'est produit.
+**Attribution de possession - barre de contact**: Pendant ou immédiatement après l'infraction, si la balle entre en contact avec une figurine ou une barre de l'équipe non fautive, la balle est alors attribuée à l'équipe non fautive sur la barre où le contact s'est produit.
 
 **Attribution de possession - première barre atteignable**: Pendant ou immédiatement après l'infraction, la balle est attribuée au premier barre de l'équipe non fautive depuis laquelle elle devient atteignable.
 
@@ -27,13 +27,13 @@ L'option Continuer peut être exercée explicitement lorsqu'une réclamation d'i
 
 **Reprise**: Une mise en jeu depuis la barre de la dernière possession contrôlée.
 
-**Attribution de possession 5-barres**: La balle est attribuée à l'équipe non fautive pour une mise en jeu depuis la 5-barres. L'option de Continuer depuis l'emplacement actuel de la balle reste également disponible pour l'équipe non fautive.
+**Attribution de possession barre des 5**: La balle est attribuée à l'équipe non fautive pour une mise en jeu depuis la barre des 5. L'option de Continuer depuis l'emplacement actuel de la balle reste également disponible pour l'équipe non fautive.
 
-**Attribution de possession 2-barres**: La balle est attribuée à l'équipe non fautive pour une mise en jeu depuis la 2-barres. L'option de Continuer depuis l'emplacement actuel de la balle reste également disponible pour l'équipe non fautive.
+**Attribution de possession barre des 2**: La balle est attribuée à l'équipe non fautive pour une mise en jeu depuis la barre des 2. L'option de Continuer depuis l'emplacement actuel de la balle reste également disponible pour l'équipe non fautive.
 
 **Attribution de possession - barre suivante**: La balle est attribuée à l'équipe non fautive sur sa prochaine barre dans le sens de déplacement de la balle au moment de l'infraction.
 
-**Remise à zéro**: Si l'arbitre annonce « Remise à zéro ! », l'horloge de possession et le compteur de rebonds d'aile sont remis à zéro.
+**Reset**: Si l'arbitre annonce « Reset ! », l'horloge de possession et le compteur de rebonds d'ailier sont remis à zéro.
 
 **Attribution de point**: L'équipe non fautive se voit attribuer un point. L'équipe fautive a alors l'engagement.
 
@@ -45,7 +45,7 @@ Une sanction est une pénalité infligée à l'équipe fautive à la suite d'une
 
 **Temps mort forcé**: L'équipe fautive est tenue de prendre un temps mort afin de traiter la cause de son retard. Toutefois, si le retard s'est produit alors que l'équipe fautive n'était pas légalement autorisée à demander un temps mort, ou si elle n'a plus de temps morts disponibles, l'équipe fautive a alors commis une Infraction de conduite.
 
-**Tir de pénalité**: La balle est attribuée à la 3-barres de l'équipe non fautive pour une unique tentative de marquer un but contre un défenseur de l'équipe fautive ; voir le chapitre [Tir de pénalité](./18-penalty-shot.md) pour la procédure complète.
+**Penalty**: La balle est attribuée à la barre des 3 de l'équipe non fautive pour une unique tentative de marquer un but contre un défenseur de l'équipe fautive ; voir le chapitre [Penalty](./18-penalty-shot.md) pour la procédure complète.
 
 **Forfait de manche**: L'équipe fautive perd la manche par forfait.
 

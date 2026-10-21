@@ -11,7 +11,7 @@ description: Quelles barres chaque joueur contrôle, ce qui constitue le contrô
 Cette traduction française a été produite par IA et n'a pas encore été relue par un locuteur natif. En cas de doute ou de litige, la version anglaise fait foi.
 :::
 
-En double, un joueur de chaque équipe contrôle la barre du gardien de but et la 2-barres, et l'autre joueur contrôle la 5-barres et la 3-barres. En simple standard, chaque joueur contrôle ses quatre barres.
+En double, un joueur de chaque équipe contrôle la barre du gardien de but et la barre des 2, et l'autre joueur contrôle la barre des 5 et la barre des 3. En simple standard, chaque joueur contrôle ses quatre barres.
 
 Une barre est considérée *sous contrôle* lorsqu'un joueur tient la poignée de cette barre avec n'importe quelle partie de son bras, du coude jusqu'aux doigts. Les joueurs peuvent lâcher leurs poignées, par exemple pour s'essuyer les mains, changer de prise, ou se déplacer entre les barres, mais doivent le faire conformément au règlement.
 

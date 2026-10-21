@@ -11,25 +11,25 @@ Les termes définis sont utilisés de manière cohérente dans l'ensemble du rè
 
 ## 20.1 Composants de la table
 
-**Zone de la 2-barres**: La zone où la balle est atteignable par la 2-barres.
+**Zone de la barre des 2**: La zone où la balle est atteignable par la barre des 2.
 
-**Zone de la 3-barres**: La zone où la balle est atteignable par la 3-barres.
+**Zone de la barre des 3**: La zone où la balle est atteignable par la barre des 3.
 
-**Zone de la 5-barres**: La zone où la balle est atteignable par la 5-barres.
+**Zone de la barre des 5**: La zone où la balle est atteignable par la barre des 5.
 
 **Réserve de balles**: La balle ou le jeu de balles spécifique qui sera utilisé pendant le match.
 
 **Caisson**: Toute partie du cadre de la table qui est extérieure à l'aire de jeu.
 
-**Bonhomme**: Un bonhomme de jeu sur l'une des barres, utilisé pour contrôler la balle pendant le jeu.
+**Figurine**: Une figurine de jeu sur l'une des barres, utilisée pour contrôler la balle pendant le jeu.
 
 **Ligne de but**: Le bord du terrain de jeu au niveau de la bouche du but.
 
-**Zone gardien**: La zone combinant la zone du gardien de but, la zone de la 2-barres, et l'espace entre elles.
+**Zone gardien**: La zone combinant la zone du gardien de but, la zone de la barre des 2, et l'espace entre elles.
 
-**Barre gardien**: Soit la barre du gardien de but, soit la 2-barres adjacente.
+**Barre gardien**: Soit la barre du gardien de but, soit la barre des 2 adjacente.
 
-**Gardien de but**: Le bonhomme sur la barre du gardien de but qui couvre la bouche du but.
+**Gardien de but**: La figurine sur la barre du gardien de but qui couvre la bouche du but.
 
 **Zone du gardien de but**: La zone où la balle est atteignable par la barre du gardien de but.
 
@@ -41,9 +41,9 @@ Les termes définis sont utilisés de manière cohérente dans l'ensemble du rè
 
 **Aire de jeu**: Toute partie du volume interne de la table depuis le terrain de jeu jusqu'à la hauteur du bord du caisson, à l'exclusion des compteurs de score.
 
-**Zone de barre**: Une zone de 3-barres, une zone de 5-barres, ou une zone gardien.
+**Zone de barre**: Une zone de barre des 3, une zone de barre des 5, ou une zone gardien.
 
-**Rail latéral**: L'une des deux surfaces verticales internes qui délimitent les côtés de l'aire de jeu, y compris toute bande qui longe chaque côté du rail.
+**Bande latérale**: L'une des deux surfaces verticales internes qui délimitent les côtés de l'aire de jeu, y compris tout liseré qui longe chaque côté de la bande.
 
 **Zone de frappe**: La zone qui comprend tous les angles de rotation d'une barre entre une position de butée arrière et une position de butée avant.
 
@@ -93,11 +93,11 @@ Les termes définis sont utilisés de manière cohérente dans l'ensemble du rè
 
 **Possession active**: Une période de jeu actif pendant laquelle la balle n'est pas morte à l'intérieur d'une zone de barre.
 
-**Possession contrôlée**: Une possession active pendant laquelle une balle arrêtée ou en mouvement est retenue sur une barre, indépendamment de tout contact avec un bonhomme.
+**Possession contrôlée**: Une possession active pendant laquelle une balle arrêtée ou en mouvement est retenue sur une barre, indépendamment de tout contact avec une figurine.
 
 **Joueur adverse**: Le joueur qui contrôle la barre directement opposée à la barre de possession actuelle.
 
-**Atteignable**: Une balle est atteignable depuis une barre si le pied d'un bonhomme de cette barre peut la toucher sans fléchir la barre.
+**Atteignable**: Une balle est atteignable depuis une barre si le pied d'une figurine de cette barre peut la toucher sans fléchir la barre.
 
 **Inatteignable**: Une balle qui n'est atteignable par aucune barre.
 
@@ -109,7 +109,7 @@ Les termes définis sont utilisés de manière cohérente dans l'ensemble du rè
 
 **Balle morte**: Une balle arrêtée dans l'aire de jeu qui n'est atteignable par aucune barre.
 
-**Balle plaquée**: Une balle arrêtée ou en mouvement qui est pressée contre le terrain de jeu par un bonhomme.
+**Balle pincée**: Une balle arrêtée ou en mouvement qui est pressée contre le terrain de jeu par une figurine.
 
 **Balle hors table**: Une balle qui quitte l'aire de jeu et heurte un objet étranger soit sur le caisson, soit à l'extérieur de la table, ou qui s'immobilise sur le dessus du caisson.
 
@@ -119,13 +119,13 @@ Les termes définis sont utilisés de manière cohérente dans l'ensemble du rè
 
 **Balle précaire**: Une balle arrêtée dont une partie se trouve derrière la barre du gardien de but et directement devant la bouche du but.
 
-**Balle coincée**: Une balle atteignable qui est arrêtée et en contact avec la partie verticale du rail latéral.
+**Balle coincée**: Une balle atteignable qui est arrêtée et en contact avec la partie verticale de la bande latérale.
 
 ## 20.6 Mise en jeu de la balle
 
 **Mise en jeu**: Le processus permettant de mettre la balle en jeu depuis une barre spécifique.
 
-**Engagement**: Une mise en jeu au bonhomme central de la 5-barres par l'équipe qui a concédé le but précédent, ou s'il n'y a pas de score, par l'équipe qui a obtenu l'engagement lors du tirage au sort initial.
+**Engagement**: Une mise en jeu à la figurine centrale de la barre des 5 par l'équipe qui a concédé le but précédent, ou s'il n'y a pas de score, par l'équipe qui a obtenu l'engagement lors du tirage au sort initial.
 
 **Protocole de préparation**: Partie du processus de mise en jeu de la balle ; l'invite de préparation et la réponse de préparation.
 
@@ -133,17 +133,17 @@ Les termes définis sont utilisés de manière cohérente dans l'ensemble du rè
 
 **Réponse de préparation**: La seconde partie du protocole de préparation où le joueur adverse indique qu'il est prêt pour le début du jeu actif.
 
-**Bonhomme de mise en jeu**: Pendant une mise en jeu, le bonhomme sur lequel le premier contact du transfert d'ouverture est effectué.
+**Figurine de mise en jeu**: Pendant une mise en jeu, la figurine sur laquelle le premier contact du transfert d'ouverture est effectué.
 
-**Transfert d'ouverture**: Pendant la mise en jeu, un transfert depuis le bonhomme de mise en jeu vers tout autre bonhomme de la même barre.
+**Transfert d'ouverture**: Pendant la mise en jeu, un transfert depuis la figurine de mise en jeu vers toute autre figurine de la même barre.
 
 ## 20.7 Jouer la balle
 
-**Contact**: Lorsque la balle touche un bonhomme sur une barre, ou toute partie d'une barre qui est interne à l'aire de jeu.
+**Contact**: Lorsque la balle touche une figurine sur une barre, ou toute partie d'une barre qui est interne à l'aire de jeu.
 
 **Déplacement**: Un contact qui fait bouger une balle arrêtée, ou qui fait changer de vitesse ou de direction une balle en mouvement.
 
-**Transfert**: Un déplacement suivi d'un contact sur un autre bonhomme dans la même zone de barre.
+**Transfert**: Un déplacement suivi d'un contact sur une autre figurine dans la même zone de barre.
 
 **Transition**: Un déplacement qui rend la balle inatteignable par la barre de possession active et atteignable par une autre barre.
 
@@ -151,6 +151,6 @@ Les termes définis sont utilisés de manière cohérente dans l'ensemble du rè
 
 **Passe**: Une transition contrôlée d'une barre à une autre barre de la même équipe, où les barres de passe et de réception sont séparées par au moins une barre de l'équipe adverse ; la passe est réussie si la barre de réception obtient une possession contrôlée ou effectue une transition contrôlée.
 
-**Passe directe**: Une passe de la 5-barres vers la 3-barres, ou de l'une des barres gardien vers la 5-barres, sans contact avec la barre intermédiaire de l'équipe adverse, et où la balle ne devient pas atteignable par une barre adverse en aval de la barre de réception.
+**Passe directe**: Une passe de la barre des 5 vers la barre des 3, ou de l'une des barres gardien vers la barre des 5, sans contact avec la barre intermédiaire de l'équipe adverse, et où la balle ne devient pas atteignable par une barre adverse en aval de la barre de réception.
 
-**Rebond d'aile**: Faire rebondir la balle avec un bonhomme d'aile contre le rail latéral le plus proche, suivi d'un nouveau contact avec le même bonhomme d'aile.
+**Rebond d'ailier**: Faire rebondir la balle avec une figurine ailière contre la bande latérale la plus proche, suivi d'un nouveau contact avec la même figurine ailière.

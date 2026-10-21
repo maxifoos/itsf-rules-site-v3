@@ -26,5 +26,5 @@ Les joueurs ne doivent pas causer de retard au match.
 **Sanction :**
 - Première fois dans le match : Avertissement
 - Deuxième fois dans le match : Temps mort forcé
-- Fois suivantes dans le match : Tir de pénalité
+- Fois suivantes dans le match : Penalty
 :::

@@ -26,13 +26,13 @@ Le mouvement du caisson est classé selon l'un des trois niveaux suivants :
 :::danger[Règle : Mouvement du caisson pendant une possession limite]
 Un joueur ne doit causer aucun niveau de mouvement du caisson si la balle est en surplomb de la ligne de but, ou se trouve juste hors de portée de toute barre et est arrêtée ou se déplace lentement.
 
-**Compensation :** Attribution de possession 5-barres
+**Compensation :** Attribution de possession barre des 5
 :::
 
 :::danger[Règle : Mouvement du caisson de niveau 2 pendant une possession contrôlée]
 Un joueur ne doit pas causer un mouvement du caisson de niveau 2 pendant que l'équipe adverse a la possession contrôlée de la balle.
 
-**Compensation :** Remise à zéro
+**Compensation :** Reset
 :::
 
 :::danger[Règle : Mouvement du caisson de niveau 3 pendant une possession contrôlée]
@@ -51,9 +51,9 @@ Un joueur ne doit pas causer un mouvement du caisson de niveau 3 pendant une act
 
 ## 12.2 Action offensive
 
-Une *action offensive* commence par une transition depuis une barre ayant la possession contrôlée, et comprend tout contact ultérieur avec un rail latéral, le mur arrière ou un poteau de but. Une action offensive se termine lorsque :
+Une *action offensive* commence par une transition depuis une barre ayant la possession contrôlée, et comprend tout contact ultérieur avec une bande latérale, le mur arrière ou un poteau de but. Une action offensive se termine lorsque :
 
-- La balle entre en contact avec un bonhomme ou une barre de l'une ou l'autre équipe
+- La balle entre en contact avec une figurine ou une barre de l'une ou l'autre équipe
 - L'équipe en attaque obtient la possession contrôlée de la balle
 - La balle heurte une barre transversale de but
 - Le jeu actif se termine (c'est-à-dire : but marqué, balle morte, balle hors table, interruption du jeu)

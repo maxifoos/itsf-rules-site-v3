@@ -48,7 +48,7 @@ Un joueur ne doit utiliser aucune substance pour nettoyer la balle, le terrain d
 
 **Sanction :**
 - Première fois dans le match : Avertissement
-- Fois suivantes dans le match : Tir de pénalité
+- Fois suivantes dans le match : Penalty
 :::
 
 ## 14.3 Maintenance de la table

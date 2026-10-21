@@ -23,18 +23,18 @@ Pendant le jeu actif, un joueur ne doit pas faire en sorte que les pieds de la t
 
 ## 13.1 Influence illégale
 
-Il est illégal d'influencer le mouvement de la balle pendant le jeu actif par tout moyen autre qu'un contact direct avec un bonhomme, par exemple en :
+Il est illégal d'influencer le mouvement de la balle pendant le jeu actif par tout moyen autre qu'un contact direct avec une figurine, par exemple en :
 
 - Créant un courant d'air, par exemple en soufflant sur la balle ou en faisant tourner une barre à proximité
 - Touchant la balle en atteignant l'aire de jeu
 - Introduisant un objet étranger dans l'aire de jeu
 
-Toutefois, une balle qui est arrêtée et en contact avec la partie verticale du rail latéral est une *balle coincée*. Il est légal de buter la barre de possession contre le rail latéral opposé afin de libérer une balle coincée.
+Toutefois, une balle qui est arrêtée et en contact avec la partie verticale de la bande latérale est une *balle coincée*. Il est légal de buter la barre de possession contre la bande latérale opposée afin de libérer une balle coincée.
 
 :::danger[Règle : Influence illégale]
-Il est illégal d'influencer le mouvement de la balle pendant le jeu actif par tout moyen autre qu'un contact direct avec un bonhomme. Si l'action empêche la balle d'entrer dans le but de l'équipe fautive, un point est accordé à l'équipe adverse.
+Il est illégal d'influencer le mouvement de la balle pendant le jeu actif par tout moyen autre qu'un contact direct avec une figurine. Si l'action empêche la balle d'entrer dans le but de l'équipe fautive, un point est accordé à l'équipe adverse.
 
-Exception : il est légal de buter la barre de possession contre le rail latéral opposé afin de libérer une balle coincée.
+Exception : il est légal de buter la barre de possession contre la bande latérale opposée afin de libérer une balle coincée.
 
 **Compensation :** Attribution de possession - barre suivante, éventuellement Attribution de point
 

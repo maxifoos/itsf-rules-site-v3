@@ -56,26 +56,26 @@ Une balle morte est mise en jeu sans délai depuis l'emplacement spécifié :
 
 | Emplacement de la balle morte | Barre de mise en jeu |
 | --- | --- |
-| Entre les 5-barres | 5-barres de l'équipe ayant effectué le dernier engagement |
-| Derrière une 5-barres | 2-barres de la zone gardien la plus proche |
+| Entre les barres des 5 | Barre des 5 de l'équipe ayant effectué le dernier engagement |
+| Derrière une barre des 5 | Barre des 2 de la zone gardien la plus proche |
 
 :::danger[Règle : Jouer la balle morte]
-Un joueur ne doit pas jouer la balle morte en utilisant un mouvement ascendant d'un bonhomme.
+Un joueur ne doit pas jouer la balle morte en utilisant un mouvement ascendant d'une figurine.
 
-**Compensation :** Attribution de possession 5-barres
+**Compensation :** Attribution de possession barre des 5
 :::
 
 :::danger[Règle : Flexion illégale]
 Un joueur ne doit pas entrer en contact avec une balle par ailleurs inatteignable en fléchissant une barre.
 
-**Compensation :** Attribution de possession 5-barres
+**Compensation :** Attribution de possession barre des 5
 :::
 
 ## 6.4 Balle hors table
 
 Si la balle quitte l'aire de jeu et heurte un objet étranger soit sur le caisson, soit à l'extérieur de la table, ou s'immobilise sur le dessus du caisson, une *balle hors table* est alors déclarée.
 
-L'équipe ayant eu la dernière possession contrôlée est identifiée, et la balle est mise en jeu par la 2-barres de l'autre équipe.
+L'équipe ayant eu la dernière possession contrôlée est identifiée, et la balle est mise en jeu par la barre des 2 de l'autre équipe.
 
 Si la balle ne peut pas être récupérée dans un délai raisonnable, elle doit être abandonnée et une autre balle prise dans la réserve de balles.
 
@@ -107,7 +107,7 @@ Un joueur ne doit pas attraper ni interagir intentionnellement de toute autre ma
 :::danger[Règle : Trajectoire aérienne illégale]
 Un joueur ne doit pas effectuer une transition contrôlée qui fait survoler directement la balle au-dessus de la barre d'un adversaire.
 
-**Compensation :** Attribution de possession 5-barres
+**Compensation :** Attribution de possession barre des 5
 :::
 
 ## 6.5 Interruption par un joueur
@@ -132,7 +132,7 @@ Un joueur qui a besoin de poser une brève question, par exemple pour s'enquéri
 
 Un *incident* est une interruption exceptionnelle du match qui n'est directement causée par personne à la table, par exemple :
 
-- Un bonhomme ou un autre composant de la table qui se brise
+- Une figurine ou un autre composant de la table qui se brise
 - Une panne d'éclairage
 - Un objet étranger ou une balle apparaissant près de la table ou pénétrant dans l'aire de jeu
 - Un téléphone portable ou un autre appareil faisant du bruit à la table

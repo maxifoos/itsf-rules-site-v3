@@ -18,7 +18,7 @@ La *possession active* commence lorsque la réponse de préparation est donnée,
 :::danger[Règle : Durée de possession]
 Une possession active unique ne doit pas excéder 12 secondes.
 
-**Compensation :** Attribution de possession 5-barres
+**Compensation :** Attribution de possession barre des 5
 :::
 
 ## 4.1 Réclamation de durée de possession
@@ -27,7 +27,7 @@ Lorsqu'un match n'est pas sous contrôle du temps, un joueur qui estime que la p
 
 L'interruption doit être effectuée pendant que la possession active est en cours. Le joueur doit préciser qu'il effectue une réclamation de durée de possession, qui est alors traitée selon le processus de vérification des faits et de résolution.
 
-Si les joueurs conviennent que la durée de possession a été dépassée, l'équipe adverse reçoit une Attribution de possession 5-barres.
+Si les joueurs conviennent que la durée de possession a été dépassée, l'équipe adverse reçoit une Attribution de possession barre des 5.
 
 En cas de désaccord, le match se poursuit alors sous contrôle du temps, et l'équipe dont la possession a été interrompue reçoit une Reprise.
 
@@ -48,12 +48,12 @@ Une balle est *précaire* lorsqu'elle est arrêtée et qu'une partie de la balle
 - derrière le gardien de but
 - coincée contre la lèvre de la bouche du but, un poteau ou la barre transversale
 
-Un joueur ayant une balle précaire peut déclarer « Balle précaire » pour déclencher une interruption par un joueur, auquel cas le jeu actif s'arrête ; le joueur n'a pas à attendre l'expiration de la durée de possession. Si la balle tombe dans le but après la déclaration, le but ne compte pas ; la balle est récupérée et mise en jeu depuis la 5-barres de l'équipe adverse.
+Un joueur ayant une balle précaire peut déclarer « Balle précaire » pour déclencher une interruption par un joueur, auquel cas le jeu actif s'arrête ; le joueur n'a pas à attendre l'expiration de la durée de possession. Si la balle tombe dans le but après la déclaration, le but ne compte pas ; la balle est récupérée et mise en jeu depuis la barre des 5 de l'équipe adverse.
 
 Les deux équipes observant la scène, le joueur déplace le gardien de but dans toute son amplitude de mouvement à la position de la balle afin de déterminer si elle est atteignable.
 
-- Si la balle est atteignable par le gardien de but, elle est récupérée et mise en jeu depuis la 5-barres de l'équipe adverse
-- Si la balle est inatteignable par le gardien de but, il s'agit d'une balle morte ; elle est récupérée et mise en jeu depuis la 2-barres de cette équipe
+- Si la balle est atteignable par le gardien de but, elle est récupérée et mise en jeu depuis la barre des 5 de l'équipe adverse
+- Si la balle est inatteignable par le gardien de but, il s'agit d'une balle morte ; elle est récupérée et mise en jeu depuis la barre des 2 de cette équipe
 
 <details>
 <summary>Match arbitré</summary>

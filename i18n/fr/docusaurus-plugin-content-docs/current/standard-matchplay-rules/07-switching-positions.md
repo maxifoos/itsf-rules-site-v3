@@ -11,7 +11,7 @@ description: Quand les partenaires de double peuvent échanger leurs positions, 
 Cette traduction française a été produite par IA et n'a pas encore été relue par un locuteur natif. En cas de doute ou de litige, la version anglaise fait foi.
 :::
 
-En double standard, les joueurs d'une même équipe sont autorisés à échanger leurs positions de jeu entre-points, entre-manches, et avant et après un tir de pénalité. L'équipe ayant l'engagement doit prendre position avant l'autre équipe.
+En double standard, les joueurs d'une même équipe sont autorisés à échanger leurs positions de jeu entre-points, entre-manches, et avant et après un Penalty. L'équipe ayant l'engagement doit prendre position avant l'autre équipe.
 
 Les deux équipes sont libres de changer de position jusqu'au début du protocole de préparation. Cependant, une fois l'invite de préparation émise, l'équipe offensive n'est plus autorisée à changer de position, et lorsque la réponse de préparation est donnée, l'équipe défensive n'est plus autorisée à changer de position.
 
